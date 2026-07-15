@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--secondary);
+  background-color: var(--background);
   text-align: center;
 }
 
 .landing-content {
-  background: white;
+  background: var(--surface);
   padding: 60px 40px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);

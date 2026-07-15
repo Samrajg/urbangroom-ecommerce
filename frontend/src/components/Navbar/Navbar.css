@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 40px;
-  background-color: white;
-  border-bottom: 1px solid var(--border);
+  background-color: var(--navbar);
+  border-bottom: 1px solid var(--navbar);
 }
 
 .navbar-brand a {
   font-size: 24px;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--surface);
   text-decoration: none;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .navbar-links a {
-  color: var(--text);
+  color: var(--surface);
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .navbar-links a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .navbar-links .logout-btn {
@@ -37,5 +37,5 @@
 }
 
 .navbar-links .logout-btn:hover {
-  color: var(--primary);
+  color: var(--error);
 }
